@@ -1,0 +1,541 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #485664;
+}
+
+/*To make going to top page smoother*/
+html {
+  scroll-behavior: smooth;
+}
+
+.dot {
+  font-size: 30px;
+  color: #1aa7c0;
+}
+
+.text {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn {
+  background-color: #1aa7c0;
+  font-family: tahoma;
+  font-size: 19px;
+  color: white;
+  width: 150px;
+  padding: 10px;
+}
+.btn:hover {
+  color: white;
+  background-color: #1cb3ce;
+}
+.nav-list li .anchorHover:hover {
+  border-bottom: 2px solid #1aa7c0;
+}
+
+.nav-list li .anchorHover:hover .spanColor {
+  color: #1aa7c0;
+}
+
+.nav-list li {
+  font-size: 20px;
+  font-weight: 450;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dropdown-menu {
+  background-color: #485664;
+}
+
+.dropdown-item {
+  color: #9da3ab;
+}
+
+.dropdown-item:hover {
+  background-color: #1aa7c0;
+  color: white;
+}
+
+.navbar .megamenu {
+  padding: 1rem;
+}
+
+.list-unstyled li a {
+  text-decoration: none;
+  color: #9da3ab;
+}
+.list-unstyled li {
+  margin: 10px;
+}
+.imgSvg {
+  margin: 100px;
+  width: 100%;
+}
+nav {
+  background-color: white;
+}
+.watch-vid-btn i {
+  color: #1aa7c0;
+  font-size: 30px;
+}
+.watch-vid-btn {
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.watch-vid-btn:hover {
+  color: #1cb3ce;
+}
+
+.watch-vid-btn:hover i {
+  color: #1cb3ce;
+}
+
+.content1 {
+  margin-top: 40px;
+}
+.content1 div p i {
+  color: #1aa7c0;
+  font-size: 50px;
+}
+.content1 div {
+  transition: all 0.4s;
+}
+
+/* [class*="col-"] {
+  background-clip: padding-box;
+  border: 10px solid transparent;
+  padding: 40px;
+} */
+.content1 div:hover {
+  box-shadow: 5px 5px 5px 5px #a8a6a6;
+  cursor: pointer;
+}
+.content {
+  margin-top: 100px;
+}
+.about {
+  margin-top: 60px;
+}
+.header h2,
+.services h2,
+.pricing h2 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45px;
+}
+.header p {
+  text-align: center;
+}
+.aboutImg,
+.ctaImg,
+.onfocusImg,
+.featureImg,
+.img img,
+.faqImg {
+  width: 100%;
+}
+.ctaImg {
+  border-radius: 30px;
+}
+.aboutList a,
+.aboutList a:hover {
+  color: black;
+}
+.aboutList li {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.anchorHover:hover {
+  border-bottom: 2px solid #1aa7c0;
+}
+.horizontalLine {
+  border-bottom: 1px solid rgb(150, 150, 150);
+}
+.tab-content div div i {
+  margin-right: 8px;
+  font-size: 20px;
+  color: #1aa7c0;
+}
+.clients div div img {
+  width: 100px;
+}
+.cta-container {
+  padding: 40px;
+  border-radius: 30px;
+  background-color: #eceeef;
+}
+.cta-container div div h2 {
+  font-size: 50px;
+}
+.iconPlay {
+  position: relative;
+  top: -50%;
+  left: 45%;
+  font-size: 80px;
+  color: #0ea2bd;
+  width: 80px;
+}
+.iconPlay i {
+  color: #0ea2bd;
+  border-radius: 100%;
+  border: 3px solid white;
+}
+.focusContent i {
+  color: #1aa7c0;
+  font-size: 20px;
+}
+
+.focusContent div {
+  margin-bottom: 15px;
+}
+
+#featuresTab li .active {
+  background-color: #1b91a9;
+}
+#featuresTab li:hover {
+  background-color: #1b91a9;
+}
+#featuresTab li:hover * {
+  color: white;
+}
+#featuresTab li .active * {
+  color: white;
+}
+#featuresTab li {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.features i {
+  color: #1aa7c0;
+  font-size: 20px;
+}
+.details {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.8);
+  position: relative;
+  width: 90%;
+  padding: 30px;
+  top: -100px;
+  left: 20px;
+}
+.serviceIcon {
+  position: absolute;
+  top: -70px;
+  left: 105px;
+  background-color: #0ea2bd;
+  border-radius: 200px;
+  border: 3px solid white;
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+}
+.serviceIcon i {
+  position: relative;
+  left: 27px;
+  top: 17px;
+  color: white;
+}
+.parentService:hover div div {
+  background-color: white;
+  border: 3px solid #0ea2bd;
+}
+.parentService:hover .serviceIcon i {
+  color: #0ea2bd;
+}
+.pricingImg {
+  height: 180px;
+  opacity: 0.1;
+}
+.pricing-header h3,
+.pricing-header h4,
+.pricing-header sup {
+  text-align: center;
+  color: white;
+}
+.lineThrough {
+  text-decoration: line-through;
+}
+.pricing-list {
+  list-style: none;
+}
+.pricing-list li {
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+.pricing-list li i {
+  font-size: 6px;
+  margin-right: 10px;
+  color: #0ea2bd;
+}
+.pricingBtn .btn {
+  background-color: white;
+  color: #0ea2bd;
+  border: 1px solid #0ea2bd;
+  border-radius: 10px;
+}
+.pricingBtn .btn:hover {
+  background-color: #0ea2bd;
+  color: white;
+}
+
+.pricingBtn,
+.pricingBtn2 {
+  text-align: center;
+  margin: 50px;
+}
+.faqBtn i {
+  margin-right: 10px;
+  color: #0ea2bd;
+}
+.faq .container-fluid {
+  padding: 30px;
+}
+#myTab li button {
+  color: black;
+}
+#myTab li button:hover {
+  color: #0ea2bd;
+}
+
+/* 
+.portfolio-images div img {
+  width: 105%;
+  transition: all 0.4s;
+}
+
+.portfolio-images div img:hover {
+  transform: scale(1.1);
+} */
+
+/*To make zoom inside photos*/
+.portfolio-images img {
+  width: 100%;
+}
+.portfolio-images {
+  overflow: hidden;
+}
+.portfolio-images img {
+  transition: 0.7s;
+}
+.portfolio-images:hover img {
+  transform: scale(1.2);
+}
+/*End*/
+
+.card-body-team {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px grey;
+  text-align: center;
+  position: relative;
+  width: 90%;
+  top: -50px;
+  left: 20px;
+  padding: 20px;
+}
+.teamImg {
+  border-radius: 10px;
+}
+.teamIcons i {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  color: white;
+  background-color: #0ea2bd;
+  display: none;
+  cursor: pointer;
+}
+.teamIcons {
+  position: absolute;
+  top: -35px;
+  left: -1px;
+  width: 100%;
+}
+.teamHover:hover .teamIcons i {
+  display: inline-block;
+}
+.blogBtn .btn {
+  background-color: white;
+  color: #0ea2bd;
+}
+.blogBtn .btn i {
+  margin-left: 8px;
+  color: #0ea2bd;
+}
+.blogSpan {
+  color: #0ea2bd;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.blogSpan2 {
+  font-weight: bold;
+}
+.blogHover:hover .blogSpan2 {
+  color: #0ea2bd;
+}
+
+/*To make Zoom inside of photo without change its width and height*/
+.blogImg {
+  overflow: hidden;
+}
+.blogImg img {
+  transition: 0.7s ease;
+}
+.blogImg:hover img {
+  transform: scale(1.2);
+}
+/*End*/
+.contact-card {
+  box-shadow: 0px 2px 10px rgb(207, 207, 207);
+  height: 450px;
+  padding: 20px;
+}
+.contactIcon i {
+  font-size: 25px;
+  color: #0ea2bd;
+}
+.page-top-arrow {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+.page-top-arrow i {
+  font-size: 50px;
+  color: #0ea2bd;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.footer-content {
+  background-color: #485664;
+}
+.footer-content *,
+.footerCopyright * {
+  color: white;
+}
+.footerList li i {
+  margin-right: 10px;
+  font-size: 15px;
+}
+.footerCopyright {
+  background-color: #3a4753;
+}
+.footerLink {
+  text-decoration: none;
+  color: #0ea2bd;
+}
+.footerLink:hover {
+  color: #0ea2bd;
+}
+.footerIcons a {
+  margin: 3px;
+  background-color: #4e5a65;
+  padding: 10px;
+  border-radius: 5px;
+}
+.footerIcons a i {
+  font-size: 18px;
+}
+/* ============ view pricing ============ */
+
+@media (max-width: 991px) {
+  .pricing-col {
+    width: 100%;
+  }
+}
+/* ============ view services ============ */
+
+@media (max-width: 991px) {
+  .serviceIcon {
+    left: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .serviceIcon {
+    left: 150px;
+  }
+}
+@media (min-width: 100px) and (max-width: 477px) {
+  .serviceIcon {
+    left: 60px;
+  }
+}
+
+/* ============ desktop view megamenu ============ */
+@media all and (min-width: 992px) {
+  .navbar .has-megamenu {
+    position: static !important;
+  }
+  .navbar .megamenu {
+    left: 35%;
+    right: 0;
+    width: 50%;
+    margin-top: 0;
+  }
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view megamenu ============ */
+@media (max-width: 991px) {
+  .navbar.fixed-top .navbar-collapse,
+  .navbar.sticky-top .navbar-collapse {
+    overflow-y: auto;
+    max-height: 90vh;
+    margin-top: 10px;
+  }
+}
+/* ============ mobile view .end// ============ */
+
+/* ============ desktop view multilevel drop down ============ */
+@media all and (min-width: 992px) {
+  .dropdown-menu li {
+    position: relative;
+  }
+  .dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .dropdown-menu .submenu-left {
+    right: 100%;
+    left: auto;
+  }
+
+  .dropdown-menu > li:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices multilevel drop down ============ */
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
+}
+/* ============ small devices .end// ============ */
